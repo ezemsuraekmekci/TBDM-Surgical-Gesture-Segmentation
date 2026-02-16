@@ -1,0 +1,40 @@
+# Deep Learning Framework
+torch==2.7.0
+torchvision==0.22.0
+torchaudio==2.5.1
+
+# Computer Vision & Image Processing
+opencv-python==4.12.0.88
+scikit-image==0.25.2
+pillow==11.3.0
+
+# Data Processing & Analysis
+numpy==2.0.1
+pandas==2.3.2
+scipy==1.15.3
+scikit-learn==1.7.1
+
+# Visualization
+matplotlib==3.10.5
+seaborn==0.13.2
+
+# Deep Learning Utilities
+transformers==4.56.0
+huggingface-hub==0.34.4
+timm  # Add version if you use it
+
+# Training & Experiment Tracking
+tensorboard==2.20.0
+wandb==0.22.2
+tqdm==4.67.1
+
+# Configuration & Utils
+PyYAML==6.0.2
+yacs==0.1.8
+addict==2.4.0
+
+# Video Processing (if needed)
+# imageio==2.37.2  # Uncomment if you process videos
+
+# Optional but useful
+requests==2.32.4
