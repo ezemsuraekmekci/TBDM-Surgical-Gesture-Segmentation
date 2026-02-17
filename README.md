@@ -3,10 +3,8 @@
 <div align="center">
 
 [![Paper](https://img.shields.io/badge/Paper-Coming_Soon-red)]()
-[![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-b31b1b.svg)]()
-[![IPCAI 2026](https://img.shields.io/badge/IPCAI-2026-blue.svg)](.)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+
+
 
 **Official PyTorch implementation of "TBDM: Temporal Boundary Distillation Module for Surgical Gesture Segmentation"**
 
@@ -22,17 +20,17 @@
 
 ---
 
-## 🔥 Highlights
+## Highlights
 
-- 🎯 **State-of-the-art** performance on RARP-45 surgical gesture segmentation
-- 🚀 **Plug-and-play module** compatible with multiple temporal action segmentation architectures
-- 💡 **RGB-only approach** - no kinematic data or additional sensors required
-- ⚡ **Minimal inference overhead** - TBDM adds only a lightweight projection layer
-- 📈 **Consistent improvements** across multiple architectures and datasets (+8.5 edit score on CholecT50)
+- **State-of-the-art** performance on RARP-45 surgical gesture segmentation
+- **Plug-and-play module** compatible with multiple temporal action segmentation architectures
+- **RGB-only approach** - no kinematic data or additional sensors required
+- **Minimal inference overhead** - TBDM adds only a lightweight projection layer
+- **Consistent improvements** across multiple architectures and datasets (+8.5 edit score on CholecT50)
 
 ---
 
-## 📖 Abstract
+## Abstract
 
 Achieving fine-grained understanding of surgical gestures remains a fundamental challenge in computer vision, due to the subtle and temporally overlapping nature of surgical motions. Gesture boundaries, where transitions between surgical actions occur, present particular challenges for precise temporal localization. 
 
@@ -46,7 +44,7 @@ We propose **TBDM**, a temporal boundary analysis framework that improves surgic
 
 ---
 
-## 🎯 Method Overview
+## Method Overview
 
 **TBDM** leverages privileged information during training to learn boundary-aware features through:
 
@@ -59,7 +57,7 @@ We propose **TBDM**, a temporal boundary analysis framework that improves surgic
 
 ---
 
-## 📊 Results
+## Results
 
 ### RARP-45 Dataset (State-of-the-Art)
 
@@ -94,7 +92,7 @@ We propose **TBDM**, a temporal boundary analysis framework that improves surgic
 
 ---
 
-## 🎬 Demo
+## Demo
 
 <div align="center">
 
@@ -105,7 +103,7 @@ We propose **TBDM**, a temporal boundary analysis framework that improves surgic
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -136,7 +134,7 @@ coming soon
 
 ---
 
-## 📂 Datasets
+## Datasets
 
 Our method is evaluated on two surgical video datasets:
 
@@ -156,7 +154,7 @@ Our method is evaluated on two surgical video datasets:
 
 ---
 
-## 🏋️ Training
+## Training
 
 ### Training with TBDM
 
@@ -176,7 +174,7 @@ Our method is evaluated on two surgical video datasets:
 
 ---
 
-## 📝 Citation
+## Citation
 
 If you find this work useful for your research, please cite:
 
@@ -191,7 +189,7 @@ If you find this work useful for your research, please cite:
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This work has been supported by:
 - The French government through the **3IA Côte d'Azur Investments** (ANR-23-IACL-0001)
@@ -205,7 +203,7 @@ We also acknowledge the following open-source projects:
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions or collaboration opportunities, please contact:
 
@@ -214,7 +212,7 @@ For questions or collaboration opportunities, please contact:
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
